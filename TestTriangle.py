@@ -23,16 +23,16 @@ class TestTriangles(unittest.TestCase):
     def testRightTriangleB(self):
         self.assertEqual(classifyTriangle(4,5,3),'Right')
 
-    def testEquilateralTriangles(self):
+    def testEquilateralTriangleA(self):
         self.assertEqual(classifyTriangle(1,1,1),'Equilateral')
 
-    def testEquilateralTriangle(self):
+    def testEquilateralTriangleB(self):
         self.assertEqual(classifyTriangle(22,22,22),'Equilateral')
 
-    def testScaleneTriangle(self):
+    def testScaleneTriangleA(self):
         self.assertEqual(classifyTriangle(6,7,8),"Scalene")
 
-    def testScaleneTriangle(self):
+    def testScaleneTriangleB(self):
         self.assertEqual(classifyTriangle(33,12,34), "Scalene")
 
     def testIsoscelesTriangle(self):
